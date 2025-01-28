@@ -35,3 +35,8 @@ download.file(archivo,
 
 # descomprimir
 unzip(ruta, exdir = "datos/datos_originales/")
+
+
+# obtener glosario
+download.file("https://www.mifuturo.cl/wp-content/uploads/2024/07/OFICIAL_GLOSARIO_MATRICULA_WEB_E.pdf",
+              "datos/datos_originales/glosario.pdf")
